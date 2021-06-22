@@ -1,0 +1,737 @@
+@media(max-width: 1220px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 990px) {
+    img {
+        max-width: 100%;
+    }
+
+    
+    header {
+        position: relative;
+        top: 0;
+        max-width: 100%;
+        height: 100px;
+        
+    } 
+
+    .logo-box {
+        width: 100px;
+        padding-top: 20px;    
+    }
+
+    .logo-box img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nav-box {
+        display: none;
+        width: 70%;
+    }
+    
+    .nav-box ul {
+        margin-top: 0;    
+        float: right;
+        padding-top: 40px;
+        
+        
+    }
+
+    .nav-box li {
+        display: inline;
+        padding-top: 0;
+        padding-left: 20px;
+    }
+
+    .nav-box li a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #000;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    
+    /************Banner Section****************/
+
+    #banner {
+      height: 350px;  
+    }
+
+    .food-app {
+        font-size: 54px;
+    }
+
+   #banner h1 {
+       margin: auto;
+       font-size: 35px;
+       max-width: 600px;
+       font-weight: bold;
+   } 
+
+   #banner h1 + p {
+       max-width: 450px;
+       margin: auto;
+       padding-top: 20px;
+       font-size: 18px;
+   }
+
+
+.btn {
+    padding: 20px 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#content {
+    display: none;
+}
+
+#create-account h2 {
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.description h4 {
+    font-size: 28px;
+}
+
+.description p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#download-app h4 {
+    font-size: 22px;
+    padding-top: 20px;
+}
+}
+
+@media(max-width: 640px) {
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .gutter {
+        padding-left: 0;
+    }
+
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+   
+    header {
+        position: relative;
+        top: 0;
+        max-width: 100%;
+        height: 100px;
+        
+    } 
+
+    .logo-box {
+        width: 100px;
+        padding-top: 20px;    
+    }
+
+    .logo-box img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nav-box {
+        width: 50%;
+    }
+    
+    .nav-box ul {
+        margin-top: 0;    
+        float: right;
+        padding-top: 40px;
+        
+        
+    }
+
+    .nav-box li {
+        display: block;
+        padding-top: 0;
+    }
+
+    .nav-box li a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #000;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    
+    /************Banner Section****************/
+
+    #banner {
+        background-image: none;
+        color: #000;
+        height: 500px;
+    }
+
+    .food-app {
+        font-size: 54px;
+    }
+
+   #banner h1 {
+       margin: auto;
+       font-size: 35px;
+       max-width: 400px;
+       font-weight: bold;
+   } 
+
+   #banner h1 + p {
+       max-width: 250px;
+       margin: auto;
+       padding-top: 20px;
+       font-size: 18px;
+   }
+
+
+.btn {
+    padding: 20px 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.btn-appstore {
+    background: transparent;
+    border: 1px solid #fa4a0c;
+    color: #FA4A0C;
+    margin-top: 10px;
+}
+
+/********************Content************************/
+#content {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+
+
+.phone-img {
+    position: absolute;
+    top: 15%;
+    left: -10%;
+    width: 100%;
+    height: auto;
+    
+    border-bottom: none;
+}
+
+.phone-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*************Create Account *****************/
+
+#create-account {
+    height: auto;
+    width: 100%;   
+}
+
+#create-account h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: #f2f2f2 solid 3px;
+}
+
+#create-account .flex-container {
+    flex-direction: column;
+    height: auto;
+}
+
+.app {
+    position: relative;
+    left: 2%;
+    width: 100%;
+    height: auto;
+    order: 2;
+}
+
+.app img {
+    max-width: 100%;
+    height: auto;      
+}
+
+.description {
+    width: 100%;
+    height: auto;
+    line-height: 1.2;
+    text-align: center;
+    order: 1;    
+}
+
+.top-padding {
+    padding-top: 0px;
+}
+
+.description h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+    margin-top: 0;
+    text-align: center;
+}
+
+.description h4 {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;   
+    text-align: center;
+}
+
+
+.mobile-view {
+    display: block;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+
+.desktop-view {
+    display: none;
+}
+
+.description p {
+    max-width: 400px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #737373;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reduced-space {
+    margin-top: 0;
+}
+
+/**********Download App **********************/
+
+#download-app {
+    height: 300px;
+    background: #252B42;
+}
+
+.content-div {
+    transform: translateY(20%);
+}
+
+
+.btn-appstore {
+    background: transparent;
+    border: 1px solid #fa4a0c;
+    color: #FA4A0C;
+    
+}
+
+.btn-download {
+    padding: 15px 35px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.btn-try-free {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.play1 {
+    display: none;
+}
+
+.play2 {
+    display: block;
+}
+
+
+footer {
+    position: relative; 
+    height: 150px;  
+}
+
+footer .flex-container {
+    
+    display: block;
+    text-align: center;
+    transform: translateY(40%);
+}
+
+.footer-logo {
+    display: none;
+}
+
+.copy-right {
+    margin-top: 20px;
+}
+
+}
+
+@media(max-width: 600px) {
+    body {
+        background: #f4f4f4;
+    }
+
+    #banner {
+        height: 500px;
+    }
+
+    #banner h1 {
+        font-size: 22px;
+    }
+
+    h3, h4, .description h3, .description h4 {
+        font-size: 22px;
+    }
+
+    p, .description p {
+        font-size: 20px;
+    }
+    
+
+    #download-app {
+        height: 400px;
+        
+    }
+
+    .btn-download {
+        padding: 15px 20px;
+        
+    }
+
+    #content {
+        width: 100%;
+        height: 450px;
+    }
+
+    
+}
+
+
+@media(max-width: 400px) {
+
+    html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: "Montserrat";
+}
+
+    
+
+    *{ 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    
+
+    .gutter {
+        padding: 0%;
+    }
+
+    header {
+        
+        max-width: 100%;
+        height: 100px;
+        background-color: #fff;
+    }
+
+    
+    .logo-box {
+        width: 100px;
+        padding-top: 20px;    
+    }
+
+    .logo-box img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .nav-box {
+        width: 200px;
+        height: auto;
+        
+    }
+
+    .nav-box ul {
+        margin-top: 0;
+        float: right;
+        padding-top: 40px;
+        display: none;
+        
+    }
+
+    .nav-box li {
+        display: block;
+        padding-top: 0;
+    }
+
+    .nav-box li a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #000;
+        font-weight: 700;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    /************Banner Section****************/
+
+    #banner {
+        background-image: none;
+        color: #000;
+    }
+
+    .food-app {
+        font-size: 30px;
+    }
+
+   #banner h1 {
+       font-size: 22px;
+   } 
+
+   #banner h1 + p {
+       max-width: 200px;
+       margin: auto;
+       padding-top: 20px;
+       font-size: 18px;
+   }
+
+
+.btn {
+    padding: 20px 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.btn-appstore {
+    background: transparent;
+    border: 1px solid #fa4a0c;
+    color: #FA4A0C;
+    margin-top: 10px;
+}
+
+.btn-download {
+    padding: 15px 15px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.btn-try-free {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+
+.play1 {
+    display: none;
+}
+
+.play2 {
+    display: block;
+}
+
+/********************Content************************/
+#content {
+    width: 100%;
+    height: 400px;
+}
+
+.phone-img {
+    width: 100%;
+    height: auto;
+    margin-top: -120px;
+    border-bottom: none;
+}
+
+.phone-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*************Create Account *****************/
+
+#create-account {
+    height: auto;
+    width: 100%;
+    
+}
+
+#create-account h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: grey solid 3px;
+}
+
+#create-account .flex-container {
+    flex-direction: column;
+    height: auto;
+}
+
+.app {
+    width: 100%;
+    height: 400px;
+    order: 2;
+    
+}
+
+.app img {
+    max-width: 100%;
+    height: auto;    
+    
+}
+
+.description {
+    width: 100%;
+    height: auto;
+    line-height: 1.2;
+    text-align: center;
+    order: 1;    
+}
+
+.top-padding {
+    padding-top: 30px;
+}
+
+.description h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+    margin-top: 0;
+    text-align: center;
+}
+
+.description h4 {
+    max-width: 300px;
+    font-size: 22px;
+    font-weight: bold;   
+    text-align: center;
+}
+
+
+.mobile-view {
+    display: block;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+
+.desktop-view {
+    display: none;
+}
+
+.description p {
+    max-width: 320px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #737373;
+    margin-top: 20px;
+}
+.reduced-space {
+    margin-top: 0;
+}
+
+/**********Download App **********************/
+
+#download-app {
+    height: 400px;
+    background: #252B42;
+}
+
+.content-div {
+    transform: translateY(20%);
+}
+
+#download-app h3 {
+    font-size: 26px;
+}
+
+#download-app h4 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+
+footer {
+    position: relative;
+    
+}
+
+footer .flex-container {
+    position: absolute;
+    top: 0;
+    display: block;
+    text-align: center;
+}
+
+.footer-logo {
+    display: none;
+}
+
+.fab {
+    padding-left: 30px;
+}
+
+small {
+    margin-left: 20px;
+}
+
+}
+
+@media (max-width: 332px) {
+    #download-app {
+        height: 500px;
+    }
+
+    .content-div {
+        transform: translateY(5%);
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}

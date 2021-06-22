@@ -1,0 +1,354 @@
+/******************* Google Fonts **********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+/********************Global Styles ****************************/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    font-family: "Work Sans", sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gutter {
+    padding-left: 50px;
+}
+
+.top-margin {
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #fa4a0c;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background: #fff;
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+/***********************Header Section ***********************/
+
+.fbox {
+    
+    height: 150px;
+}
+
+.logo-box {
+    width: 250px;
+    
+}
+
+.nav-box {
+    display: block;
+    width: 600px;
+}
+/*
+.nav-box ul {
+    margin-top: 50px;
+}
+
+.nav-box li, a {
+    display: inline;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    padding-left: 20px;
+}
+*/
+
+
+.nav-box ul {
+    margin-top: 50px;
+    float: right;
+}
+
+.nav-box li {
+   display: inline;
+   padding: 20px;
+}
+
+.nav-box li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.nav-box li a:hover {
+    color: orangered;
+}
+/****************** Banner Section *************************/
+
+#banner {
+    font-family: "montserrat";
+    width: 100%;
+    height: 500px;
+    padding: 5% 0;
+    background: url("https://res.cloudinary.com/dslkhklbl/image/upload/v1613491199/banner_zdwcz8.png") center no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+#banner p {
+    font-size: 30px;
+}
+
+#banner h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 30px;
+    font-family: "Poppins";
+}
+
+#banner h1 + p {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.btn-playstore {
+    background: red;
+    color: white;
+}
+
+.btn-appstore {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.play2 {
+    display: none;
+}
+
+/********************* Content Section *****************************/
+
+#content {
+    width: 100%;
+    height: 900px;
+}
+
+.phone-img {
+    width: 80%;
+    height: 850px;
+    margin: -270px auto;
+    border-bottom: #e4e4e4 solid 3px;   
+}
+
+
+/******************** Create Account Section **************************/
+
+#create-account {
+    height: auto;
+    width: 100%;
+    font-family: "Montserrat";
+}
+
+#create-account h2 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.app {
+    width: 50%;
+}
+
+.description {
+    width: 50%;
+    height: auto;
+    line-height: 1.2;
+    align-self: center;
+}
+
+.description h3 {
+    font-size: 24px;
+    color: red;
+    margin-top: 20px;
+}
+
+.description h4 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.description p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.reduced-space {
+    margin-top: 0;
+}
+
+/*********************Download App *************************/
+
+#download-app {
+    width: 100%;
+    height: 400px;
+    font-family: "Montserrat", sans-serif;
+    background: url("https://res.cloudinary.com/dslkhklbl/image/upload/v1613554920/Rectangle_47_1_mbx4qh.png") top center no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+#download-app h3 {
+    font-size: 40px;
+}
+
+#download-app h4 {
+    font-size: 24px;
+}
+
+.content-div {
+    transform: translateY(50%);
+}
+
+#download-app button {
+    border-radius: 10px;
+    outline: none;
+}
+
+.mobile-view {
+    display: none;
+}
+
+
+
+/****************************Footer Section ********************/
+
+footer {
+    width: 100%;
+    height: 120px;
+}
+
+.fab {
+    color: #fa4a0c;
+   margin-left: 20px;
+}
+
+.copy-right, .icons {
+    align-self: center;
+}
+
+small {
+    font-size: 16px;
+}
+
+/************Hamburger Menu **************/
+
+.hamburger-menu {
+    display: none;
+}
+
+.menu-bar{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+}
+
+.menu-bar::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 20px;
+    height: 3px;
+    background: #000;
+    transform-origin: 0 0;
+    transition: transform 0.3s ease-out;
+}
+
+.menu-bar_middle {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    width: 20px;
+    height: 3px;
+    background: #000;
+    transition: transform 0.3s ease-out;
+    
+}
+
+.menu-bar::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 20px;
+    height: 3px;
+    background: #000;
+    transform-origin: 0 100%;
+    transition: transform 0.3s ease-out;
+}
+
+.menu-bar-close::before {
+    transform: rotate(46deg) scaleX(1.25);   
+}
+
+.menu-bar-close::after {
+    transform: rotate(-49deg) scaleX(1.25) translateY(1px);
+    
+}
+
+.menu-bar_middle-hide {
+    display: none;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px)*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) */
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) */
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) */ 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px)*/
